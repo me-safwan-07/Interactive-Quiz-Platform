@@ -22,7 +22,7 @@ export const HomeScreen = () => {
         }
     ] 
   return (
-    <div className="border min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
         <div className="max-w-2xl w-full bg-white rounded-lg shadow-lg p-8">
             <div className="text-center mb-8">
                 <div className="inline-block p-4 rounded-full bg-black mb-4">
