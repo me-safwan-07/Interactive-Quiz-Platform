@@ -49,7 +49,7 @@ A modern, interactive quiz application built with React, TypeScript, and Tailwin
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/me-safwan-07/Interactive-Quiz-Platform.git
 ```
 
 2. Navigate to the project directory:
