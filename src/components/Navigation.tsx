@@ -28,7 +28,7 @@ export const Navigation: React.FC = () => {
       ) : (
         <button
           onClick={nextQuestion}
-          className="flex items-center gap-2 px-8 py-3 rounded-xl bg-blue-600 text-white hover:bg-blue-700 transition-all duration-200 font-medium shadow-md hover:shadow-lg"
+          className="flex items-center gap-2 px-8 py-3 rounded-xl bg-black text-white hover:bg-slate-800 transition-all duration-200 font-medium shadow-md hover:shadow-lg cursor-pointer"
         >
           Next
           <ArrowRight className="w-5 h-5" />

@@ -20,13 +20,13 @@ export const HomeScreen = () => {
             description: 'View Previous attempts',
             icon: <History className='w-6 h-6'/>
         }
-    ]
+    ] 
   return (
     <div className="border min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
         <div className="max-w-2xl w-full bg-white rounded-lg shadow-lg p-8">
             <div className="text-center mb-8">
-                <div className="inline-block p-4 rounded-full bg-blue-100 mb-4">
-                    <Brain className="w-12 h-12 text-blue-600" />
+                <div className="inline-block p-4 rounded-full bg-black mb-4">
+                    <Brain className="w-12 h-12 text-white" />
                 </div>
                 <h1 className="text-3xl font-bold mb-4">Interactive Quiz Challenge</h1>
                 <p className="text-gray-600">Test your knowledge across various topics!</p>

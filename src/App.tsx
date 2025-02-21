@@ -27,13 +27,13 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 flex flex-col items-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-ba-50 to-indigo-50 flex flex-col items-center p-4">
       <div className="w-full max-w-2xl flex flex-col items-center mb-8">
         <div className="flex items-center gap-3 mb-8">
-          <div className="p-3 bg-blue-600 rounded-lg shadow-lg">
-            <Brain className="w-8 h-8 text-white" />
-          </div>
-          <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+        <div className="inline-block p-4 rounded-full bg-black mb-4">
+                    <Brain className="w-12 h-12 text-white" />
+                </div>
+          <h1 className="sm:text-3xl text-md font-bold bg-clip-text text-black">
             Interactive Quiz
           </h1>
         </div>
